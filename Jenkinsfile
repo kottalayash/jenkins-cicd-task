@@ -28,7 +28,7 @@ pipeline {
 
                     docker run -d \
                     --name jenkins-cicd-app \
-                    -p 8080:80 \
+                    -p 8081:80 \
                     jenkins-cicd-app
                 '''
             }
